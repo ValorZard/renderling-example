@@ -1,0 +1,9 @@
+[package]
+name = "renderling-mmo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30.8"
+renderling = { git = "https://github.com/schell/renderling.git", rev = "74d06bc3f78c1e80d80867bd3290e448e4b99ebe" }
+renderling_ui = { git = "https://github.com/schell/renderling.git", rev = "74d06bc3f78c1e80d80867bd3290e448e4b99ebe" }
